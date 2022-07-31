@@ -39,6 +39,11 @@ ul {
         .SideBar-Icon, .Logo {
             margin: auto;
             height: 35px;
+            transition: .5s;
+        }
+
+        .SideBar-Icon:hover {
+            transform: scale(1.1);
         }
     }
 
@@ -57,7 +62,7 @@ ul {
         li {
 
             margin: auto;
-            
+
             .NavLink {
                 color: white;
                 font-family: sans-serif;

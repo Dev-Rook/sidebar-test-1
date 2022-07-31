@@ -52,6 +52,11 @@ ul {
             left: 20px;
 
             height: 30px;
+            transition: .5s;
+        }
+
+        .SideBar-Icon:hover {
+            transform: scale(1.1);
         }
 
     }
@@ -101,8 +106,8 @@ ul {
             height: 30px;
         }
     }
-}
-
-.Open-Side-Bar {
-    transform: translateX(0%)
+    
+    .Open-Side-Bar {
+        transform: translateX(0%)
+    }
 }

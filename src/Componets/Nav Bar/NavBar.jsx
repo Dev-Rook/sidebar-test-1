@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Styles/NavBar.css"
+import "../../App"
 
 const NavBar = ({openSideBar}) => {
   return (

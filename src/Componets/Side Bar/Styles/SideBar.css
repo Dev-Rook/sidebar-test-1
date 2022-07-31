@@ -41,6 +41,10 @@ ul {
   top: 20px;
   left: 20px;
   height: 30px;
+  transition: 0.5s;
+}
+.Side-Bar .Logo-Container .SideBar-Icon:hover {
+  transform: scale(1.1);
 }
 .Side-Bar .SideBar-Link-Container {
   display: flex;
@@ -73,7 +77,6 @@ ul {
   margin: auto;
   height: 30px;
 }
-
-.Open-Side-Bar {
+.Side-Bar .Open-Side-Bar {
   transform: translateX(0%);
 }/*# sourceMappingURL=SideBar.css.map */

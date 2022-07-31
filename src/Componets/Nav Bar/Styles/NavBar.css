@@ -33,6 +33,10 @@ ul {
 .Nav-Bar .SideBar-Icon-And-Logo .SideBar-Icon, .Nav-Bar .SideBar-Icon-And-Logo .Logo {
   margin: auto;
   height: 35px;
+  transition: 0.5s;
+}
+.Nav-Bar .SideBar-Icon-And-Logo .SideBar-Icon:hover {
+  transform: scale(1.1);
 }
 .Nav-Bar .NavLink-Container {
   display: flex;

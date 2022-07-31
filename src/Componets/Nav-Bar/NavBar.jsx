@@ -12,22 +12,22 @@ const NavBar = ({openSideBar}) => {
         
         <ul className="NavLink-Container">
             <li>
-                <a href="#" className='NavLink'>
+                <a href="https://www.youtube.com/watch?v=DXgxnh9Y-N0" className='NavLink'>
                     Home
                 </a>
             </li>
             <li>
-                <a href="#" className='NavLink'>
+                <a href="https://www.youtube.com/watch?v=6xjJ2XIbGRk" className='NavLink'>
                     Services
                 </a>
             </li>
             <li>
-                <a href="#" className='NavLink'>
+                <a href="https://www.youtube.com/watch?v=r3NrIRHCAdI" className='NavLink'>
                     Gallery
                 </a>
             </li>
             <li>
-                <a href="#" className='NavLink'>
+                <a href="https://www.youtube.com/watch?v=-DKIQpu4hhQ" className='NavLink'>
                     Contact
                 </a>
             </li>

@@ -28,6 +28,9 @@ ul {
     height: 100vh;
     width: 300px;
 
+    transition: .5s;
+    transform: translateX(-100%);
+
     .Logo-Container {
         background-image: url("../../../Assests/Icons/Logo.png");
         background-size: cover;
@@ -35,12 +38,21 @@ ul {
         background-repeat: no-repeat;
 
         display: flex;
+        position: relative;
 
         margin: auto;
         margin-top: 0px;
 
         height: 30%;
         width: 100%;
+
+        .SideBar-Icon {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+
+            height: 30px;
+        }
 
     }
 
@@ -89,4 +101,8 @@ ul {
             height: 30px;
         }
     }
+}
+
+.Open-Side-Bar {
+    transform: translateX(0%)
 }

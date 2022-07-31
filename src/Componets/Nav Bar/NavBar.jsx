@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Styles/NavBar.css"
 
-const NavBar = () => {
+const NavBar = ({openSideBar}) => {
   return (
     <nav className="Nav-Bar">
         <div className="SideBar-Icon-And-Logo">
-            <img src={require("../../Assests/Icons/Menu-Icon.png")} alt="" className="SideBar-Icon" />
+            <img onClick={openSideBar} src={require("../../Assests/Icons/Menu-Icon.png")} alt="" className="SideBar-Icon" />
             <img src={require("../../Assests/Icons/Logo.png")} alt="" className="Logo" />
         </div>
         

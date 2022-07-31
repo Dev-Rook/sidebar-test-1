@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Styles/SideBar.css"
 
-const SideBar = () => {
+const SideBar = ({sideBar}) => {
   return (
-    <div className="Side-Bar">
+    <div className={sideBar ? "Side-Bar Open-Side-Bar" : "Side-Bar"}>
         <div className="Logo-Container">
-
+        <img  src={require("../../Assests/Icons/Menu-Icon.png")} alt="" className="SideBar-Icon" />
         </div>
 
         <ul className="SideBar-Link-Container">
